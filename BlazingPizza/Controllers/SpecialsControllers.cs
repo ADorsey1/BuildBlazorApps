@@ -1,7 +1,8 @@
+﻿using BlazingPizza.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazingPizza;
+namespace BlazingPizza.Controllers;
 
 [Route("specials")]
 [ApiController]

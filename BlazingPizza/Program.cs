@@ -1,4 +1,5 @@
-using BlazingPizza;
+using BlazingPizza.Data;
+using BlazingPizza.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,4 +37,3 @@ using (var scope = scopeFactory.CreateScope())
 
 
 app.Run();
-
